@@ -24,6 +24,13 @@ variable "alb" {
   default = ""
 }
 
+variable "alb_arn" {
+  description = "ARN of ALB"
+  type = string
+  default = ""
+}
+
+
 variable "zone_id" {
   description = "zone id of load balancer"
   type = string
